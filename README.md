@@ -1,16 +1,19 @@
 # library-REST-API
 
-##Description
+#Description
 
 An application that has a simple REST-API in the Django framework.
-##Installation
+
+#Installation
+
 * Open your project folder.
 * Create a virtual environment
 * install Django and fdjangorestframework
 * Add this project
 * Install postgreSQL db on your computer and PgAdmin
 
-##Usage
+#Usage
+
 if you want to use the app on lokalhost, uncomment DATABASES = {...} and comment
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES = {'default': dj_database_url.config('DATABASE_URL',default='postgres://localhost')}
